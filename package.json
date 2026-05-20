@@ -1,0 +1,13 @@
+{
+  "name": "turn-based-card-game",
+  "version": "1.0.0",
+  "description": "A simple browser-based turn-based card game prototype.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}

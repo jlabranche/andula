@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banner Clash</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="top-bar">
+      <div>
+        <h1>Banner Clash</h1>
+        <p id="turn-status">Loading game...</p>
+      </div>
+      <div class="actions">
+        <button id="end-turn-button">End Turn</button>
+        <button id="reset-button" class="secondary">Reset</button>
+      </div>
+    </header>
+
+    <section id="message" class="message" hidden></section>
+
+    <section id="game-board" class="players"></section>
+  </main>
+
+  <script src="/game.js"></script>
+</body>
+</html>
